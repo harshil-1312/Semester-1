@@ -1,0 +1,142 @@
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~
+$ cd Desktop
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop
+$ ls
+ Alagiya_Aryan.docx                               'airport tranning'/
+'Aryan Alagiya.pdf'                                assignment.docx
+'Eclipse IDE for Java Developers - 2022-06.lnk'*   cpr-1/
+ Final-Project-JJ-v1/                              desktop.ini
+'Job_offer_letter aamrphlm.docx'                   ips/
+ Letterpad-1.docx                                 'seneca notes'/
+'Where are my files.lnk'*                         'seneca workshop'/
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop
+$ cd cpr-1
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1
+$ ls
+'all files v1'/   allfilesv2/  'git bash'/   v2files/
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1
+$ cd v2files
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/v2files
+$ ls
+ converting2.h        'fundamentals (1).h'   manipulatingmain.c
+ convertingmain.c      fundamentalsmain.c   'tokenizing (1).c'
+ convertingv2.c       'manipulating (1).c'  'tokenizing (1).h'
+'fundamentals (1).c'  'manipulating (1).h'   tokenizingmain.c
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/v2files
+$ git init
+Initialized empty Git repository in C:/Users/ALAGIYA ARYAN BHARAT/Desktop/cpr-1/v2files/.git/
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/v2files (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        converting2.h
+        convertingmain.c
+        convertingv2.c
+        fundamentals (1).c
+        fundamentals (1).h
+        fundamentalsmain.c
+        manipulating (1).c
+        manipulating (1).h
+        manipulatingmain.c
+        tokenizing (1).c
+        tokenizing (1).h
+        tokenizingmain.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/v2files (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/v2files (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        converting2.h
+        convertingmain.c
+        convertingv2.c
+        fundamentals (1).c
+        fundamentals (1).h
+        fundamentalsmain.c
+        manipulating (1).c
+        manipulating (1).h
+        manipulatingmain.c
+        tokenizing (1).c
+        tokenizing (1).h
+        tokenizingmain.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/v2files (master)
+$ git add .
+warning: LF will be replaced by CRLF in converting2.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in convertingmain.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in convertingv2.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fundamentals (1).c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fundamentals (1).h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fundamentalsmain.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in manipulating (1).c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in manipulating (1).h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in manipulatingmain.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tokenizing (1).c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tokenizing (1).h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tokenizingmain.c.
+The file will have its original line endings in your working directory
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/v2files (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/v2files (master)
+$ git commit -m "first version"
+[master (root-commit) a5868f0] first version
+ 12 files changed, 445 insertions(+)
+ create mode 100644 converting2.h
+ create mode 100644 convertingmain.c
+ create mode 100644 convertingv2.c
+ create mode 100644 fundamentals (1).c
+ create mode 100644 fundamentals (1).h
+ create mode 100644 fundamentalsmain.c
+ create mode 100644 manipulating (1).c
+ create mode 100644 manipulating (1).h
+ create mode 100644 manipulatingmain.c
+ create mode 100644 tokenizing (1).c
+ create mode 100644 tokenizing (1).h
+ create mode 100644 tokenizingmain.c
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/v2files (master)
+$ git status
+On branch master
+nothing to commit, working tree clean

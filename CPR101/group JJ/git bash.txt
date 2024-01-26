@@ -1,0 +1,220 @@
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1
+$ ls
+'CP4P_IT Projects and Project Management.pptx'
+'Compiling modules.docx'
+'Final Project Overview.docx'
+ Final-Project-Test-Cases.xlsx
+'Programming Comments(1).docx'
+'Programming Test Cases(1).docx'
+'Project Source Code.zip'
+'git basics.docx'
+ module-test-cases.xlsx
+ source_code/
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1
+$ cd source_code
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code
+$ ls
+converting.c  fundamentals.c  main.c          manipulating.h  tokenizing.h
+converting.h  fundamentals.h  manipulating.c  tokenizing.c
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code
+$ git init
+Initialized empty Git repository in C:/Users/ALAGIYA ARYAN BHARAT/Desktop/cpr-1/source_code/.git/
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        converting.c
+        converting.h
+        fundamentals.c
+        fundamentals.h
+        main.c
+        manipulating.c
+        manipulating.h
+        tokenizing.c
+        tokenizing.h
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        converting.c
+        converting.h
+        fundamentals.c
+        fundamentals.h
+        main.c
+        manipulating.c
+        manipulating.h
+        tokenizing.c
+        tokenizing.h
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git add ^C
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git add converting.c converting.h fundamentals.c fundamental.h main.c manipulating.h manipulating.c tokenizing.c tokenizing.h
+fatal: pathspec 'fundamental.h' did not match any files
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        converting.c
+        converting.h
+        fundamentals.c
+        fundamentals.h
+        main.c
+        manipulating.c
+        manipulating.h
+        tokenizing.c
+        tokenizing.h
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git add converting.c converting.h fundamentals.c fundamentals.h main.c manipulating.h manipulating.c tokenizing.c tokenizing.h
+warning: LF will be replaced by CRLF in converting.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in converting.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fundamentals.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fundamentals.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in manipulating.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in manipulating.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tokenizing.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tokenizing.h.
+The file will have its original line endings in your working directory
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ ls
+converting.c  fundamentals.c  main.c          manipulating.h  tokenizing.h
+converting.h  fundamentals.h  manipulating.c  tokenizing.c
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   converting.c
+        new file:   converting.h
+        new file:   fundamentals.c
+        new file:   fundamentals.h
+        new file:   main.c
+        new file:   manipulating.c
+        new file:   manipulating.h
+        new file:   tokenizing.c
+        new file:   tokenizing.h
+
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git commit -m "first version"
+[master (root-commit) 1f646c1] first version
+ 9 files changed, 222 insertions(+)
+ create mode 100644 converting.c
+ create mode 100644 converting.h
+ create mode 100644 fundamentals.c
+ create mode 100644 fundamentals.h
+ create mode 100644 main.c
+ create mode 100644 manipulating.c
+ create mode 100644 manipulating.h
+ create mode 100644 tokenizing.c
+ create mode 100644 tokenizing.h
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   converting.c
+        modified:   converting.h
+        modified:   fundamentals.c
+        modified:   fundamentals.h
+        modified:   main.c
+        modified:   manipulating.c
+        modified:   manipulating.h
+        modified:   tokenizing.c
+        modified:   tokenizing.h
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git add converting.c converting.h fundamentals.c fundamentals.h main.c manipulating.h manipulating.c tokenizing.c tokenizing.h
+warning: LF will be replaced by CRLF in converting.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in converting.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fundamentals.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fundamentals.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in manipulating.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in manipulating.h.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tokenizing.c.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tokenizing.h.
+The file will have its original line endings in your working directory
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   converting.c
+        modified:   converting.h
+        modified:   fundamentals.c
+        modified:   fundamentals.h
+        modified:   main.c
+        modified:   manipulating.c
+        modified:   manipulating.h
+        modified:   tokenizing.c
+        modified:   tokenizing.h
+
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/Desktop/cpr-1/source_code (master)
+$

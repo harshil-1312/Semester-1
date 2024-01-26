@@ -1,0 +1,384 @@
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
+ WAWebPROSetup.exe*
+ _netrc
+ eclipse/
+ eclipse-workspace/
+ local/
+ mintty.exe.stackdump
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ remote/
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~
+$ cd desktop
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop
+$ ls
+ Alagiya_Aryan.docx                               'airport tranning'/
+'Aryan Alagiya.pdf'                                assignment.docx
+'Eclipse IDE for Java Developers - 2022-06.lnk'*   cpr-1/
+ Final-Project-JJ-v1/                              desktop.ini
+'Job_offer_letter aamrphlm.docx'                   ips/
+ Letterpad-1.docx                                 'seneca notes'/
+ Ms3/                                             'seneca workshop'/
+'Where are my files.lnk'*
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop
+$ cd cpr-1
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1
+$ ls
+ V-3/  'all files v1'/   allfilesv2/  'git bash'/   v2files/
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1
+$ cd v-3
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1/v-3
+$ ls
+'Converting V3'/  'Fundamentals H'/   manipulating/   tokenizing/
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1/v-3
+$ git init
+Initialized empty Git repository in C:/Users/ALAGIYA ARYAN BHARAT/Desktop/cpr-1/V-3/.git/
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1/v-3 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Converting V3/
+        Fundamentals H/
+        manipulating/
+        tokenizing/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1/v-3 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1/v-3 (master)
+$ git add .
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1/v-3 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Converting V3/.vs/Converting V3/FileContentIndex/00352c86-b985-4206-b7b0-f7898088a0f1.vsidx
+        new file:   Converting V3/.vs/Converting V3/FileContentIndex/00c33713-2e30-4ea8-8431-63eddbbdc346.vsidx
+        new file:   Converting V3/.vs/Converting V3/FileContentIndex/908867f7-f033-4b1c-b864-742fab80de92.vsidx
+        new file:   Converting V3/.vs/Converting V3/FileContentIndex/c2cc48ac-bb74-40eb-8f12-e87c6e2b2215.vsidx
+        new file:   Converting V3/.vs/Converting V3/FileContentIndex/read.lock
+        new file:   Converting V3/.vs/Converting V3/v17/.suo
+        new file:   Converting V3/.vs/Converting V3/v17/Browse.VC.db
+        new file:   Converting V3/.vs/Converting V3/v17/ipch/AutoPCH/b973a54491fe23ba/CONVERTING.ipch
+        new file:   Converting V3/.vs/Converting V3/v17/ipch/AutoPCH/da5eb428eaa7a087/CONVERTINGMAIN.ipch
+        new file:   Converting V3/Converting V3.sln
+        new file:   Converting V3/Converting V3.vcxproj
+        new file:   Converting V3/Converting V3.vcxproj.filters
+        new file:   Converting V3/Converting V3.vcxproj.user
+        new file:   Converting V3/converting.c
+        new file:   Converting V3/converting.h
+        new file:   Converting V3/convertingmain.c
+        new file:   Converting V3/x64/Debug/Converting V3.exe
+        new file:   Converting V3/x64/Debug/Converting V3.exe.recipe
+        new file:   Converting V3/x64/Debug/Converting V3.ilk
+        new file:   Converting V3/x64/Debug/Converting V3.log
+        new file:   Converting V3/x64/Debug/Converting V3.pdb
+        new file:   Converting V3/x64/Debug/Converting V3.tlog/CL.command.1.tlog
+        new file:   Converting V3/x64/Debug/Converting V3.tlog/CL.read.1.tlog
+        new file:   Converting V3/x64/Debug/Converting V3.tlog/CL.write.1.tlog
+        new file:   Converting V3/x64/Debug/Converting V3.tlog/Converting V3.lastbuildstate
+        new file:   Converting V3/x64/Debug/Converting V3.tlog/link.command.1.tlog
+        new file:   Converting V3/x64/Debug/Converting V3.tlog/link.read.1.tlog
+        new file:   Converting V3/x64/Debug/Converting V3.tlog/link.write.1.tlog
+        new file:   Converting V3/x64/Debug/Converting V3.vcxproj.FileListAbsolute.txt
+        new file:   Converting V3/x64/Debug/converting.obj
+        new file:   Converting V3/x64/Debug/convertingmain.obj
+        new file:   Converting V3/x64/Debug/vc143.idb
+        new file:   Converting V3/x64/Debug/vc143.pdb
+        new file:   Fundamentals H/.vs/Fundamentals H/FileContentIndex/846fbcbc-b554-4cf4-b859-abbef783a4c5.vsidx
+        new file:   Fundamentals H/.vs/Fundamentals H/FileContentIndex/913cac5f-64a9-401a-9bbc-a26d31a2599a.vsidx
+        new file:   Fundamentals H/.vs/Fundamentals H/FileContentIndex/f0ddbe5b-61f4-4d1c-9638-e7ecbe6e0043.vsidx
+        new file:   Fundamentals H/.vs/Fundamentals H/FileContentIndex/f72b617a-1e37-4655-93f8-760b0b4e2ea5.vsidx
+        new file:   Fundamentals H/.vs/Fundamentals H/FileContentIndex/read.lock
+        new file:   Fundamentals H/.vs/Fundamentals H/v17/.suo
+        new file:   Fundamentals H/.vs/Fundamentals H/v17/Browse.VC.db
+        new file:   Fundamentals H/.vs/Fundamentals H/v17/ipch/AutoPCH/3edc97caac346fc2/FUNDAMENTALSMAIN.ipch
+        new file:   Fundamentals H/.vs/Fundamentals H/v17/ipch/AutoPCH/998856944525483f/FUNDAMENTALS.ipch
+        new file:   Fundamentals H/Fundamentals H.sln
+        new file:   Fundamentals H/Fundamentals H.vcxproj
+        new file:   Fundamentals H/Fundamentals H.vcxproj.filters
+        new file:   Fundamentals H/Fundamentals H.vcxproj.user
+        new file:   Fundamentals H/fundamentals.c
+        new file:   Fundamentals H/fundamentals.h
+        new file:   Fundamentals H/fundamentalsmain.c
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.exe
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.exe.recipe
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.ilk
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.log
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.pdb
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.tlog/CL.command.1.tlog
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.tlog/CL.read.1.tlog
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.tlog/CL.write.1.tlog
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.tlog/Fundamentals H.lastbuildstate
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.tlog/link.command.1.tlog
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.tlog/link.read.1.tlog
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.tlog/link.write.1.tlog
+        new file:   Fundamentals H/x64/Debug/Fundamentals H.vcxproj.FileListAbsolute.txt
+        new file:   Fundamentals H/x64/Debug/fundamentals.obj
+        new file:   Fundamentals H/x64/Debug/fundamentalsmain.obj
+        new file:   Fundamentals H/x64/Debug/vc143.idb
+        new file:   Fundamentals H/x64/Debug/vc143.pdb
+        new file:   manipulating/.vs/manipulating/FileContentIndex/0707f19d-2535-4f20-9170-167a1198a9db.vsidx
+        new file:   manipulating/.vs/manipulating/FileContentIndex/27890e05-2a9a-40ba-a728-0362290e0501.vsidx
+        new file:   manipulating/.vs/manipulating/FileContentIndex/711691ee-98ac-4b98-bc95-5bc66669ed69.vsidx
+        new file:   manipulating/.vs/manipulating/FileContentIndex/eadc43e3-6748-4edf-acec-3cb64c8584df.vsidx
+        new file:   manipulating/.vs/manipulating/FileContentIndex/read.lock
+        new file:   manipulating/.vs/manipulating/v17/.suo
+        new file:   manipulating/.vs/manipulating/v17/Browse.VC.db
+        new file:   manipulating/.vs/manipulating/v17/ipch/AutoPCH/5047dc6b6b1659e/MANIPULATINGMAIN.ipch
+        new file:   manipulating/.vs/manipulating/v17/ipch/AutoPCH/5eda1bdf4d4965db/MANIPULATING.ipch
+        new file:   manipulating/manipulating.c
+        new file:   manipulating/manipulating.h
+        new file:   manipulating/manipulating.sln
+        new file:   manipulating/manipulating.vcxproj
+        new file:   manipulating/manipulating.vcxproj.filters
+        new file:   manipulating/manipulating.vcxproj.user
+        new file:   manipulating/manipulatingmain.c
+        new file:   manipulating/x64/Debug/manipulating.exe
+        new file:   manipulating/x64/Debug/manipulating.exe.recipe
+        new file:   manipulating/x64/Debug/manipulating.ilk
+        new file:   manipulating/x64/Debug/manipulating.log
+        new file:   manipulating/x64/Debug/manipulating.obj
+        new file:   manipulating/x64/Debug/manipulating.pdb
+        new file:   manipulating/x64/Debug/manipulating.tlog/CL.command.1.tlog
+        new file:   manipulating/x64/Debug/manipulating.tlog/CL.read.1.tlog
+        new file:   manipulating/x64/Debug/manipulating.tlog/CL.write.1.tlog
+        new file:   manipulating/x64/Debug/manipulating.tlog/link.command.1.tlog
+        new file:   manipulating/x64/Debug/manipulating.tlog/link.read.1.tlog
+        new file:   manipulating/x64/Debug/manipulating.tlog/link.write.1.tlog
+        new file:   manipulating/x64/Debug/manipulating.tlog/manipulating.lastbuildstate
+        new file:   manipulating/x64/Debug/manipulating.vcxproj.FileListAbsolute.txt
+        new file:   manipulating/x64/Debug/manipulatingmain.obj
+        new file:   manipulating/x64/Debug/vc143.idb
+        new file:   manipulating/x64/Debug/vc143.pdb
+        new file:   tokenizing/.vs/tokenizing/FileContentIndex/25d70898-4e85-4f34-b6cf-1e52456e80d8.vsidx
+        new file:   tokenizing/.vs/tokenizing/FileContentIndex/2b7f44b3-af2a-454e-a0ac-dcec1791a568.vsidx
+        new file:   tokenizing/.vs/tokenizing/FileContentIndex/c81be121-da68-4394-b536-c1a21db3c32b.vsidx
+        new file:   tokenizing/.vs/tokenizing/FileContentIndex/f1b4ef78-8bc0-4810-b16a-faeff7d5e79d.vsidx
+        new file:   tokenizing/.vs/tokenizing/FileContentIndex/read.lock
+        new file:   tokenizing/.vs/tokenizing/v17/.suo
+        new file:   tokenizing/.vs/tokenizing/v17/Browse.VC.db
+        new file:   tokenizing/.vs/tokenizing/v17/ipch/AutoPCH/a28c1ca40355210a/TOKENIZINGMAIN.ipch
+        new file:   tokenizing/.vs/tokenizing/v17/ipch/AutoPCH/de574506887d2a57/TOKENIZING.ipch
+        new file:   tokenizing/tokenizing.c
+        new file:   tokenizing/tokenizing.h
+        new file:   tokenizing/tokenizing.sln
+        new file:   tokenizing/tokenizing.vcxproj
+        new file:   tokenizing/tokenizing.vcxproj.filters
+        new file:   tokenizing/tokenizing.vcxproj.user
+        new file:   tokenizing/tokenizingmain.c
+        new file:   tokenizing/x64/Debug/tokenizing.exe
+        new file:   tokenizing/x64/Debug/tokenizing.exe.recipe
+        new file:   tokenizing/x64/Debug/tokenizing.ilk
+        new file:   tokenizing/x64/Debug/tokenizing.log
+        new file:   tokenizing/x64/Debug/tokenizing.obj
+        new file:   tokenizing/x64/Debug/tokenizing.pdb
+        new file:   tokenizing/x64/Debug/tokenizing.tlog/CL.command.1.tlog
+        new file:   tokenizing/x64/Debug/tokenizing.tlog/CL.read.1.tlog
+        new file:   tokenizing/x64/Debug/tokenizing.tlog/CL.write.1.tlog
+        new file:   tokenizing/x64/Debug/tokenizing.tlog/link.command.1.tlog
+        new file:   tokenizing/x64/Debug/tokenizing.tlog/link.read.1.tlog
+        new file:   tokenizing/x64/Debug/tokenizing.tlog/link.write.1.tlog
+        new file:   tokenizing/x64/Debug/tokenizing.tlog/tokenizing.lastbuildstate
+        new file:   tokenizing/x64/Debug/tokenizing.vcxproj.FileListAbsolute.txt
+        new file:   tokenizing/x64/Debug/tokenizingmain.obj
+        new file:   tokenizing/x64/Debug/vc143.idb
+        new file:   tokenizing/x64/Debug/vc143.pdb
+
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1/v-3 (master)
+$ git commit -m "first version"
+[master (root-commit) b66b74b] first version
+ 132 files changed, 1437 insertions(+)
+ create mode 100644 Converting V3/.vs/Converting V3/FileContentIndex/00352c86-b985-4206-b7b0-f7898088a0f1.vsidx
+ create mode 100644 Converting V3/.vs/Converting V3/FileContentIndex/00c33713-2e30-4ea8-8431-63eddbbdc346.vsidx
+ create mode 100644 Converting V3/.vs/Converting V3/FileContentIndex/908867f7-f033-4b1c-b864-742fab80de92.vsidx
+ create mode 100644 Converting V3/.vs/Converting V3/FileContentIndex/c2cc48ac-bb74-40eb-8f12-e87c6e2b2215.vsidx
+ create mode 100644 Converting V3/.vs/Converting V3/FileContentIndex/read.lock
+ create mode 100644 Converting V3/.vs/Converting V3/v17/.suo
+ create mode 100644 Converting V3/.vs/Converting V3/v17/Browse.VC.db
+ create mode 100644 Converting V3/.vs/Converting V3/v17/ipch/AutoPCH/b973a54491fe23ba/CONVERTING.ipch
+ create mode 100644 Converting V3/.vs/Converting V3/v17/ipch/AutoPCH/da5eb428eaa7a087/CONVERTINGMAIN.ipch
+ create mode 100644 Converting V3/Converting V3.sln
+ create mode 100644 Converting V3/Converting V3.vcxproj
+ create mode 100644 Converting V3/Converting V3.vcxproj.filters
+ create mode 100644 Converting V3/Converting V3.vcxproj.user
+ create mode 100644 Converting V3/converting.c
+ create mode 100644 Converting V3/converting.h
+ create mode 100644 Converting V3/convertingmain.c
+ create mode 100644 Converting V3/x64/Debug/Converting V3.exe
+ create mode 100644 Converting V3/x64/Debug/Converting V3.exe.recipe
+ create mode 100644 Converting V3/x64/Debug/Converting V3.ilk
+ create mode 100644 Converting V3/x64/Debug/Converting V3.log
+ create mode 100644 Converting V3/x64/Debug/Converting V3.pdb
+ create mode 100644 Converting V3/x64/Debug/Converting V3.tlog/CL.command.1.tlog
+ create mode 100644 Converting V3/x64/Debug/Converting V3.tlog/CL.read.1.tlog
+ create mode 100644 Converting V3/x64/Debug/Converting V3.tlog/CL.write.1.tlog
+ create mode 100644 Converting V3/x64/Debug/Converting V3.tlog/Converting V3.lastbuildstate
+ create mode 100644 Converting V3/x64/Debug/Converting V3.tlog/link.command.1.tlog
+ create mode 100644 Converting V3/x64/Debug/Converting V3.tlog/link.read.1.tlog
+ create mode 100644 Converting V3/x64/Debug/Converting V3.tlog/link.write.1.tlog
+ create mode 100644 Converting V3/x64/Debug/Converting V3.vcxproj.FileListAbsolute.txt
+ create mode 100644 Converting V3/x64/Debug/converting.obj
+ create mode 100644 Converting V3/x64/Debug/convertingmain.obj
+ create mode 100644 Converting V3/x64/Debug/vc143.idb
+ create mode 100644 Converting V3/x64/Debug/vc143.pdb
+ create mode 100644 Fundamentals H/.vs/Fundamentals H/FileContentIndex/846fbcbc-b554-4cf4-b859-abbef783a4c5.vsidx
+ create mode 100644 Fundamentals H/.vs/Fundamentals H/FileContentIndex/913cac5f-64a9-401a-9bbc-a26d31a2599a.vsidx
+ create mode 100644 Fundamentals H/.vs/Fundamentals H/FileContentIndex/f0ddbe5b-61f4-4d1c-9638-e7ecbe6e0043.vsidx
+ create mode 100644 Fundamentals H/.vs/Fundamentals H/FileContentIndex/f72b617a-1e37-4655-93f8-760b0b4e2ea5.vsidx
+ create mode 100644 Fundamentals H/.vs/Fundamentals H/FileContentIndex/read.lock
+ create mode 100644 Fundamentals H/.vs/Fundamentals H/v17/.suo
+ create mode 100644 Fundamentals H/.vs/Fundamentals H/v17/Browse.VC.db
+ create mode 100644 Fundamentals H/.vs/Fundamentals H/v17/ipch/AutoPCH/3edc97caac346fc2/FUNDAMENTALSMAIN.ipch
+ create mode 100644 Fundamentals H/.vs/Fundamentals H/v17/ipch/AutoPCH/998856944525483f/FUNDAMENTALS.ipch
+ create mode 100644 Fundamentals H/Fundamentals H.sln
+ create mode 100644 Fundamentals H/Fundamentals H.vcxproj
+ create mode 100644 Fundamentals H/Fundamentals H.vcxproj.filters
+ create mode 100644 Fundamentals H/Fundamentals H.vcxproj.user
+ create mode 100644 Fundamentals H/fundamentals.c
+ create mode 100644 Fundamentals H/fundamentals.h
+ create mode 100644 Fundamentals H/fundamentalsmain.c
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.exe
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.exe.recipe
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.ilk
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.log
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.pdb
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.tlog/CL.command.1.tlog
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.tlog/CL.read.1.tlog
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.tlog/CL.write.1.tlog
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.tlog/Fundamentals H.lastbuildstate
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.tlog/link.command.1.tlog
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.tlog/link.read.1.tlog
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.tlog/link.write.1.tlog
+ create mode 100644 Fundamentals H/x64/Debug/Fundamentals H.vcxproj.FileListAbsolute.txt
+ create mode 100644 Fundamentals H/x64/Debug/fundamentals.obj
+ create mode 100644 Fundamentals H/x64/Debug/fundamentalsmain.obj
+ create mode 100644 Fundamentals H/x64/Debug/vc143.idb
+ create mode 100644 Fundamentals H/x64/Debug/vc143.pdb
+ create mode 100644 manipulating/.vs/manipulating/FileContentIndex/0707f19d-2535-4f20-9170-167a1198a9db.vsidx
+ create mode 100644 manipulating/.vs/manipulating/FileContentIndex/27890e05-2a9a-40ba-a728-0362290e0501.vsidx
+ create mode 100644 manipulating/.vs/manipulating/FileContentIndex/711691ee-98ac-4b98-bc95-5bc66669ed69.vsidx
+ create mode 100644 manipulating/.vs/manipulating/FileContentIndex/eadc43e3-6748-4edf-acec-3cb64c8584df.vsidx
+ create mode 100644 manipulating/.vs/manipulating/FileContentIndex/read.lock
+ create mode 100644 manipulating/.vs/manipulating/v17/.suo
+ create mode 100644 manipulating/.vs/manipulating/v17/Browse.VC.db
+ create mode 100644 manipulating/.vs/manipulating/v17/ipch/AutoPCH/5047dc6b6b1659e/MANIPULATINGMAIN.ipch
+ create mode 100644 manipulating/.vs/manipulating/v17/ipch/AutoPCH/5eda1bdf4d4965db/MANIPULATING.ipch
+ create mode 100644 manipulating/manipulating.c
+ create mode 100644 manipulating/manipulating.h
+ create mode 100644 manipulating/manipulating.sln
+ create mode 100644 manipulating/manipulating.vcxproj
+ create mode 100644 manipulating/manipulating.vcxproj.filters
+ create mode 100644 manipulating/manipulating.vcxproj.user
+ create mode 100644 manipulating/manipulatingmain.c
+ create mode 100644 manipulating/x64/Debug/manipulating.exe
+ create mode 100644 manipulating/x64/Debug/manipulating.exe.recipe
+ create mode 100644 manipulating/x64/Debug/manipulating.ilk
+ create mode 100644 manipulating/x64/Debug/manipulating.log
+ create mode 100644 manipulating/x64/Debug/manipulating.obj
+ create mode 100644 manipulating/x64/Debug/manipulating.pdb
+ create mode 100644 manipulating/x64/Debug/manipulating.tlog/CL.command.1.tlog
+ create mode 100644 manipulating/x64/Debug/manipulating.tlog/CL.read.1.tlog
+ create mode 100644 manipulating/x64/Debug/manipulating.tlog/CL.write.1.tlog
+ create mode 100644 manipulating/x64/Debug/manipulating.tlog/link.command.1.tlog
+ create mode 100644 manipulating/x64/Debug/manipulating.tlog/link.read.1.tlog
+ create mode 100644 manipulating/x64/Debug/manipulating.tlog/link.write.1.tlog
+ create mode 100644 manipulating/x64/Debug/manipulating.tlog/manipulating.lastbuildstate
+ create mode 100644 manipulating/x64/Debug/manipulating.vcxproj.FileListAbsolute.txt
+ create mode 100644 manipulating/x64/Debug/manipulatingmain.obj
+ create mode 100644 manipulating/x64/Debug/vc143.idb
+ create mode 100644 manipulating/x64/Debug/vc143.pdb
+ create mode 100644 tokenizing/.vs/tokenizing/FileContentIndex/25d70898-4e85-4f34-b6cf-1e52456e80d8.vsidx
+ create mode 100644 tokenizing/.vs/tokenizing/FileContentIndex/2b7f44b3-af2a-454e-a0ac-dcec1791a568.vsidx
+ create mode 100644 tokenizing/.vs/tokenizing/FileContentIndex/c81be121-da68-4394-b536-c1a21db3c32b.vsidx
+ create mode 100644 tokenizing/.vs/tokenizing/FileContentIndex/f1b4ef78-8bc0-4810-b16a-faeff7d5e79d.vsidx
+ create mode 100644 tokenizing/.vs/tokenizing/FileContentIndex/read.lock
+ create mode 100644 tokenizing/.vs/tokenizing/v17/.suo
+ create mode 100644 tokenizing/.vs/tokenizing/v17/Browse.VC.db
+ create mode 100644 tokenizing/.vs/tokenizing/v17/ipch/AutoPCH/a28c1ca40355210a/TOKENIZINGMAIN.ipch
+ create mode 100644 tokenizing/.vs/tokenizing/v17/ipch/AutoPCH/de574506887d2a57/TOKENIZING.ipch
+ create mode 100644 tokenizing/tokenizing.c
+ create mode 100644 tokenizing/tokenizing.h
+ create mode 100644 tokenizing/tokenizing.sln
+ create mode 100644 tokenizing/tokenizing.vcxproj
+ create mode 100644 tokenizing/tokenizing.vcxproj.filters
+ create mode 100644 tokenizing/tokenizing.vcxproj.user
+ create mode 100644 tokenizing/tokenizingmain.c
+ create mode 100644 tokenizing/x64/Debug/tokenizing.exe
+ create mode 100644 tokenizing/x64/Debug/tokenizing.exe.recipe
+ create mode 100644 tokenizing/x64/Debug/tokenizing.ilk
+ create mode 100644 tokenizing/x64/Debug/tokenizing.log
+ create mode 100644 tokenizing/x64/Debug/tokenizing.obj
+ create mode 100644 tokenizing/x64/Debug/tokenizing.pdb
+ create mode 100644 tokenizing/x64/Debug/tokenizing.tlog/CL.command.1.tlog
+ create mode 100644 tokenizing/x64/Debug/tokenizing.tlog/CL.read.1.tlog
+ create mode 100644 tokenizing/x64/Debug/tokenizing.tlog/CL.write.1.tlog
+ create mode 100644 tokenizing/x64/Debug/tokenizing.tlog/link.command.1.tlog
+ create mode 100644 tokenizing/x64/Debug/tokenizing.tlog/link.read.1.tlog
+ create mode 100644 tokenizing/x64/Debug/tokenizing.tlog/link.write.1.tlog
+ create mode 100644 tokenizing/x64/Debug/tokenizing.tlog/tokenizing.lastbuildstate
+ create mode 100644 tokenizing/x64/Debug/tokenizing.vcxproj.FileListAbsolute.txt
+ create mode 100644 tokenizing/x64/Debug/tokenizingmain.obj
+ create mode 100644 tokenizing/x64/Debug/vc143.idb
+ create mode 100644 tokenizing/x64/Debug/vc143.pdb
+
+ALAGIYA ARYAN BHARAT@DESKTOP-V0EPJLS MINGW64 ~/desktop/cpr-1/v-3 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
