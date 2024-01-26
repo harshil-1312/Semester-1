@@ -1,0 +1,37 @@
+1. what did you find to be the most difficult expression you had to code in this workshop? copy the line of code  that you are referring to and explain your answer in detail?
+
+Ans:-
+
+   printf(" 3|       %d         |         %d          |      %d      |   %d   |      %d\n\n", (x == 'm' || x ==      'M') && (t3 == 'l' || t3 == 'L'), (y == 'c' || y == 'C') && (s3 == 'f' || s3 == 'F'), (a == 10) && 			  (b3 <= 1000), (z == 'n' || z == 'N'), (y == 'c' || y == 'C') && (tp3 > 50));
+
+I found it difficult because  to get the perfect outcome I have to use complex logic for that. It was also confusing for me because I had never did anything like this and to remember the function and the where I had stored the value of it which is a very confusing task to manage.
+		 
+
+2.  Find one of your coded logical expressions from part-2 and show how this can be evaluated in two different ways but will produce the same desired result. one version of statement should apply "deMorgan's Law" and the other will not.
+
+Ans:-
+	
+  printf(" 2|       %d         |         %d          |      %d      |   %d   |      %d\n", (x == 'r' || x == 'R')     && (t2 == 'b' || t2 == 'B'), (y == 'c' || y == 'C') && (s2 == 'f' || s2 == 'F'), (a >= 0 && a <= 9) &&   (b2 <= 500), (z == 'n' || z == 'N'), (y == 'c' || y == 'C') && (tp2 >= 50)); 
+
+
+ 	(y == 'c' || y == 'C') && (s2 == 'f' || s2 == 'F' )
+
+
+This is a logical command to get output of coffee grind size where I use && function which means if the user input ‘c’ , ‘C’ , ‘f’ , ’F’ any one from this the out should be 1  because it indicates true statement, weather if user input any character than this the output should be 0 because it indicates false statement. 
+
+
+Now I am writing the same logical with deMorgan’s law
+
+
+(y == 'c' || y == 'C')  ||  (s2 == 'f' || s2 == 'F')
+
+
+In this logical command I use the || function to get the output where the user input either ‘c’ , ‘C’ or either ‘f’ , ‘F’ both are true than the outcome is 1  this is how we can use de Morgan’s law for the same command. 
+
+
+3.   In Part-1,you were instructed to create a variable to store the calculated average product prices, while in Part-2, the displaying of the converted Celsius to Fahrenheit temperature unit was NOT to be stored to a variable. Why do you think this was the preferred approach for both cases?
+
+Ans:-
+
+
+In part-1 we store the calculated average of price, while in Part-2, the displaying of the converted Celsius to Fahrenheit temperature unit was NOT to be stored to a variable just because in the part 1 we have only one average price to use so it is better to be stored in the variable. But in the part 2 when we have to covert Celsius to Fahrenheit there are different values for the different coffee so it’s hard to store each value in different variable and it’s also difficult to manage when you got error rather to put the formula of converting is much more easy and convenient for the one who is new to the programming.

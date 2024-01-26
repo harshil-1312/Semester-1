@@ -1,0 +1,91 @@
+
+//***************************************************************************** 
+// Full Name  : Harshil Prajapati
+//student ID#: 175255215
+//Email       : hprajapati8@myseneca.ca
+//Section    :IPC144ZRA.5605.2227
+//Authenticity Declaration:
+//I declare this submission is the result of my own work and has not been
+//shared with any other student or 3rd party content provider. This submitted
+//piece of work is entirely of my own creation
+//*****************************************************************************
+
+
+
+
+1. Why do you think selection is an extremely important concept in programming? Provide three (3) examples from your program (Part-2) where you use it and how it influenced your solution.
+
+
+Ans:-
+	Selection is one of the most important concept of programming because when we have to work on a big project which requires hundreds and thousands of lines of coding then In that case proper selection is mandatory to keep track on your code and which also makes work easier when u got an error in your program, if you have not done proper selection it might be trouble for you to find an error, if there is. As, in my program (Part-2) I select t1 and t2 for Tomatoes, c1 and c2 for cabbages and o1 and o2 for oranges so in this case if I get an error in my part-2 I do really know where I have to look for just because of my proper selection. like if I got an error with t1 or t2 then I know that something is wrong in the section of tomatoes so I quickly can go through the tomato portion and can fix the error easily. Also, like the proper variable the selection of proper logic is also important like in my part-2 I used do while parent loop which makes my work so easier I donÕt have to rewrite all things again and again that is why selection is most important for the programming. 
+
+
+2.  What is a nested construct? Identify two (2) different examples from your program (Part-2) where you applied this and describe how the logic is executed in language a non-technical person would understand.
+
+
+
+Ans:-	
+	Nested construct means when you apply one selection within another selection in your program. In my program (part-2)  I used many nested construct examples from that is discuss below.
+
+-Nested construct 1.
+
+      for (a1 != 0; a1 > 0;) //for apples 
+    {
+        printf("Pick some APPLES... how many did you pick? : ");
+        scanf(" %d", &a2);
+        if (a2 > a1)
+        {
+            printf("You picked too many... only %d more APPLE(S) are needed.\n", a1);
+        }
+        else if (a2 < 1)
+        {
+            printf("ERROR: You must pick at least 1!\n");
+        } 
+        else if (a2 < a1)
+        {
+            printf("Looks like we still need some APPLES...\n");
+            a1 -= a2;
+        }
+        else
+        {
+            printf("Great, that's the apples done!\n\n");
+            a1 -= a2;
+        }
+
+    }
+		
+Here in this nested construct if the user input value of a2 is higher than a1 then it shows an error of ÒYou picked too many... only %d more APPLE(S) are needed.\n"  if the user input the value of a2 is less than 1 than it shows error of "ERROR: You must pick at least 1!\n" if the user input value of a2 is less than a1 then it shows error of "Looks like we still need some APPLES...\n" and if the user input correct (a1=a1) value than it shows "Great, that's the apples done!\n\n. As in the nested construct it checks that the input that user did falls under which condition and then shows the output due to which we do not have to write different conditions for each input.
+
+-Nested construct 2.
+do
+    {
+        printf("How many APPLES do you need? : ");
+        scanf(" %d", &a1);
+        if (a1 < 0)
+        {
+            printf("ERROR: Value must be 0 or more.\n");// For APPLES
+        }
+
+    } while (a1 < 0);
+
+I use do while nested loop for the program which is even more convenient rather than to write each and every time the same for different inputs. In this I put a condition in the while that run the program n number of times till the condition will satisfy. also I add if statement which is the main nested part so in that if the value of a1 is less than 0 than it shows the error of "ERROR: Value must be 0 or more\n that is how nested construct works.
+
+
+
+3.  What is your favourite iteration construct and why? Compare your favourite to each of the other possible iteration constructs to backup your reasons. In addition, provide a concrete example from your solution for Part-2.
+
+
+Ans:-
+	My favourite iteration construct is the do while loop because it takes very minimal effort of the developer to print the same thing for n number of times and you just have to put a simple logic to end the loop or to get the desire output so it is very convenient when you have to print same thing for many times. I can also use for function to construct same nested loop and get the desired output. The example from my solution is
+
+do
+    {
+        printf("How many APPLES do you need? : ");
+        scanf(" %d", &a1);
+        if (a1 < 0)
+        {
+            printf("ERROR: Value must be 0 or more.\n");// For APPLES
+        }
+
+    } while (a1 < 0);
+    printf("\n");
